@@ -1,7 +1,6 @@
 {
   "name": "jest_testing_basics",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,9 +10,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^22.4.4"
   },
   "dependencies": {
     "axios": "^0.18.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/jest_testing_basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradtraversy/jest_testing_basics/issues"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+    },
+
+  "homepage": "https://github.com/bradtraversy/jest_testing_basics#readme",
+  "description": ""
 }
